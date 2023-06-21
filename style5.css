@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  border: 1px solid green;
+  padding: 0;
+  margin: 0;
+}
+
+.layout__header{
+  padding: 50px;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.layout__nav{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(46, 173, 246);
+}
+
+.layout__nav a{
+  color: whitesmoke;
+  padding: 14px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.layout__aside{
+  background-color: bisque;
+  padding: 14px 20px;
+  flex: 20%;
+}
+
+.layout__main{
+  background-color: rgb(105, 151, 242);
+  padding: 14px 20px;
+  flex: 70%
+}
+
+.layout__footer{
+  padding: 150px;
+}
